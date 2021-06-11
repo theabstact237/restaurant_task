@@ -5,13 +5,13 @@ Company needs internal service for its’ employees which helps them to make a d
 2)To install the project in your workstation without docker:
     -pip install -r requirements.tx
     -cd virtualenv
-    -. Scripts/env to activate the virtual environement
+    -. Scripts/activate to activate the virtual environement on windows but on linux  source virtualenv/bin/activate
     -python manage.py makemigrations
     -python manage.py migrate
     -python manage.py runserver
 3)To connect to the authentication Api endpoints
-   -Visit http://127.0.0.1:8001/rest-auth/registration/ to register
-   -Visit http://127.0.0.1:8001/rest-auth/login/
+   -Visit http://127.0.0.1:8000/rest-auth/registration/ to register
+   -Visit http://127.0.0.1:8000/rest-auth/login/
 4)To connect to the restaurant Api endpoints
    -Visit http://127.0.0.1:8000/restaurants/
    -Visit http://127.0.0.1:8000/menus/
